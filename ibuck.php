@@ -18,9 +18,8 @@ function asw($a,$user) {
 echo "USERNAME : ";
 $user = trim(fgets(STDIN));
 echo "JUMLAH   : ";
-$jum = trim(fgets(STDIN))\n;
-echo "Wellcome ".$user."";
-echo "Nuyul Ibuck Free"\n";
+$jum = trim(fgets(STDIN));
+echo "Selamat Datang ".$user."\n\n";
 for($a=0;$a<$jum;$a++){
 sleep (10);
 $oce = asw($a,$user);
