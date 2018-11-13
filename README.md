@@ -1,4 +1,4 @@
-# Ibuck
+# App Ibuck https://play.google.com/store/apps/details?id=com.app.ibucks
 Nuyul Ibuck Spin
 
 Tutor Nuyul
@@ -19,3 +19,4 @@ Isi USERNAME:
 
 JUMLAH:
 
+Source code by :Izzy404
