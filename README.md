@@ -1,2 +1,13 @@
 # Ibuck
-Nuyul Ibuck
+Nuyul Ibuck Spin
+
+Tutor Nuyul
+Cara pakai install termux ketik
+pkg install php
+pkg install git
+cd git clone https://github.com/izzy404/Ibuck/
+cd ibuck
+php ibuck.php
+Isi USERNAME:
+JUMLAH:
+
