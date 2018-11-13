@@ -9,7 +9,7 @@ pkg install php
 
 pkg install git
 
-cd git clone https://github.com/izzy404/Ibuck/
+cd git clone https://github.com/izzy404/ibuck/
 
 cd ibuck
 
