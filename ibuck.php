@@ -1,7 +1,7 @@
 <?php
-function asw($a,$user) {
+function asw($a, $user) {
                 $no = rand(1,10);
-                $body = 'date=12-11-2018&username='.$user.'&type=Spin Credit&points='.$no.'&';
+                $body = 'date=13-11-2018&username='.$user.'&type=Spin Credit&points='.$no.'&';
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_URL, "http://ibucks.avjtrickz.com/get/award.php");
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -13,7 +13,6 @@ function asw($a,$user) {
 		curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 		$result = curl_exec($ch);
 	return $result;	
-
 }
 echo "USERNAME : ";
 $user = trim(fgets(STDIN));
@@ -22,8 +21,7 @@ $jum = trim(fgets(STDIN));
 echo "Selamat Datang ".$user."\n\n";
 for($a=0;$a<$jum;$a++){
 sleep (10);
-$oce = asw($a,$user);
+$oce = asw($a, $user);
 echo "".$oce."\n";
 }
 ?>
-
